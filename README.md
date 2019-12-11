@@ -6,4 +6,5 @@ const a = 123;
 
 let b = 456 
 test
+const 2
 ```
