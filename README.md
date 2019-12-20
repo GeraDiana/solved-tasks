@@ -1,10 +1,7 @@
-# solved-tasks
-* task 1
+# Solved-Tasks
+####Multiply
 ```javascript
-const a = 123;
-//Hello World!
-
-let b = 456 
-test
-const 2
+function multiply(a, b){
+  return a * b
+}
 ```
