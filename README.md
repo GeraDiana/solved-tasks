@@ -56,3 +56,11 @@ function countPositivesSumNegatives(input) {
     return [];
 }
 ```
+
+####Even or Odd
+````javascript
+function even_or_odd(number) {
+    let newNumber =(number%2)===0 ? "Even" : "Odd";
+    return newNumber;
+}
+````
