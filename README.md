@@ -46,3 +46,15 @@ function even_or_odd(number) {
     return newNumber;
 }
 ````
+
+#### Sum Mixed Array
+```javascript
+function sumMix(x){
+let sum =0;
+
+for (let i=0; i<x.length; i++){
+   sum = sum + parseInt(x[i]);
+   }
+   return sum;
+}
+```
