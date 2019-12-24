@@ -1,12 +1,12 @@
 # Solved-Tasks
-####Multiply
+#### Multiply
 ```javascript
 function multiply(a, b){
   return a * b
 }
 ```
 
-####Generate range of integers
+#### Generate range of integers
 ````javascript
 function generateRange(min, max, step){
 let arr = [];
@@ -18,7 +18,7 @@ return arr;
 ````
 
 
-####Count of positives / sum of negatives
+#### Count of positives / sum of negatives
 ```javascript
 function countPositivesSumNegatives(input) {
     if (input !== null && input.length > 0) {
@@ -39,7 +39,7 @@ function countPositivesSumNegatives(input) {
 ```
 
 
-####Even or Odd
+#### Even or Odd
 ````javascript
 function even_or_odd(number) {
     let newNumber =(number%2)===0 ? "Even" : "Odd";
