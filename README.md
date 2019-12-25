@@ -67,6 +67,8 @@ function sumStr(a,b) {
 ```
 
 #### Function 1 - hello world
+```javascript
 function greet () {
 return "hello world!" ;
 }
+```
