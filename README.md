@@ -7,15 +7,15 @@ function multiply(a, b){
 ```
 
 #### Generate range of integers
-````javascript
+```javascript
 function generateRange(min, max, step){
-let arr = [];
-for(let i=min; i<=max; i=i+step){
- arr.push(i);
+  let arr = [];
+  for(let i=min; i<=max; i=i+step){
+    arr.push(i);
   }
-return arr;
+  return arr;
 }
-````
+```
 
 
 #### Count of positives / sum of negatives
@@ -40,22 +40,22 @@ function countPositivesSumNegatives(input) {
 
 
 #### Even or Odd
-````javascript
+```javascript
 function even_or_odd(number) {
     let newNumber =(number%2)===0 ? "Even" : "Odd";
     return newNumber;
 }
-````
+```
 
 #### Sum Mixed Array
 ```javascript
 function sumMix(x){
-let sum =0;
+  let sum =0;
 
-for (let i=0; i<x.length; i++){
-   sum = sum + parseInt(x[i]);
-   }
-   return sum;
+  for (let i=0; i<x.length; i++){
+    sum = sum + parseInt(x[i]);
+  }
+  return sum;
 }
 ```
 
@@ -69,6 +69,14 @@ function sumStr(a,b) {
 #### Function 1 - hello world
 ```javascript
 function greet () {
-return "hello world!" ;
+  return "hello world!" ;
+}
+```
+
+#### Training JS #1: create your first JS function and print "Helloworld!"
+```javascript
+function helloWorld(){
+  var str = "Hello World!";
+  console.log(str);
 }
 ```
