@@ -58,3 +58,10 @@ for (let i=0; i<x.length; i++){
    return sum;
 }
 ```
+
+#### Sum The Strings
+```javascript
+function sumStr(a,b) {
+  return  ((+a) + (+b))+"";
+}
+```
