@@ -80,3 +80,14 @@ function helloWorld(){
   console.log(str);
 }
 ```
+
+#### Breaking chocolate problem
+```javascript
+function breakChocolate(n,m) {
+  let i=m*n-1;
+   if (i<0){
+      i=0;
+   }
+  return i;
+}
+```
