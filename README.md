@@ -126,3 +126,10 @@ function iceBrickVolume(radius, bottleLength, rimLength) {
  
 }
 ```
+
+#### Third Angle of a Triangle
+```javascript
+function otherAngle(a, b) {
+return 180 -(a+b);
+  }
+```
