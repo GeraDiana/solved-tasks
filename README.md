@@ -118,3 +118,11 @@ function howMuchILoveYou(nbPetals) {
    }
 }
 ```
+#### For Twins: 2. Math operations
+```javascript
+function iceBrickVolume(radius, bottleLength, rimLength) {
+
+  return 2*radius*radius*(bottleLength-rimLength);
+ 
+}
+```
