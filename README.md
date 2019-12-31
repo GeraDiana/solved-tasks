@@ -133,3 +133,10 @@ function otherAngle(a, b) {
 return 180 -(a+b);
   }
 ```
+
+#### Sum of angles
+```javascript
+function angle(n) {
+  return (n-2)*180;
+}
+```
