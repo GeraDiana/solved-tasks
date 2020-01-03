@@ -156,3 +156,8 @@ function problem(x){
 function typeOfSum(a, b) {
   return typeof (a+b);
 }
+
+#### Convert a Number to a String!
+function numberToString(num) {
+ return num + '';
+ }
