@@ -152,3 +152,7 @@ function problem(x){
  return typeof x ==='string'? "Error" : x*50+6
   
 }
+#### Type of sum
+function typeOfSum(a, b) {
+  return typeof (a+b);
+}
