@@ -166,3 +166,10 @@ function numberToString(num) {
  ```javascript
 var a = (123).toString();
 ```
+
+#### Convert a String to a Number!
+```javascript
+var stringToNumber = function(str){
+    return (Number(str));
+}
+```
