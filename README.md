@@ -161,3 +161,8 @@ function typeOfSum(a, b) {
 function numberToString(num) {
  return num + '';
  }
+ 
+ #### Number toString
+ ```javascript
+var a = (123).toString();
+```
