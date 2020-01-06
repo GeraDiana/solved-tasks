@@ -173,3 +173,10 @@ var stringToNumber = function(str){
     return (Number(str));
 }
 ```
+#### Convert a Boolean to a String
+```javascript
+function booleanToString(b){
+return b ? "true": "false";
+
+}
+```
