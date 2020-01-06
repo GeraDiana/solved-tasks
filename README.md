@@ -180,3 +180,13 @@ return b ? "true": "false";
 
 }
 ```
+
+#### Discover The Original Price
+```javascript
+function discoverOriginalPrice(discountedPrice, salePercentage){
+  let discOriginalPrice = discountedPrice *(100 /(100-salePercentage));
+  
+return Math.round (discOriginalPrice*100)/100;
+ 
+}
+```
