@@ -205,3 +205,9 @@ function squareArea(A){
  return Math.round(100*(A*2/Math.PI)**2)/100;
 }
 ```
+####How many times should I go?
+```javascript
+function howManyTimes(annualPrice, individualPrice) {
+return (Math.ceil(annualPrice / individualPrice));
+}
+```
