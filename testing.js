@@ -1,7 +1,11 @@
-var summation = function (num){
-    let sum=1;
-    for(let i=1 ; i < num; i++){
-        sum=sum+i;
+var FilterString = function(value) {
+    let res='';
+    for(let i=0; i< value.length; i++){
+        if (value[i] >= '0' && value[i]<= '9'){
+            res=res+value [i];
+        }
     }
-    return sum;
+    return +res;
 }
+
+console.log(FilterString("a1b2c3"));

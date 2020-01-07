@@ -199,3 +199,9 @@ return Math.round (n*100)/100 ;
 
 }
 ```
+#### Area of a Square
+```javascript
+function squareArea(A){
+ return Math.round(100*(A*2/Math.PI)**2)/100;
+}
+```
