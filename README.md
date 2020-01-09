@@ -212,7 +212,9 @@ return (Math.ceil(annualPrice / individualPrice));
 }
 ```
 #### Return the closest number multiple of 10
+```javascript
 const closestMultiple10 = num => {
  nNum=num/10;
   return(Math.round(nNum))*10;
  };
+```
