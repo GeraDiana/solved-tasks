@@ -218,3 +218,10 @@ const closestMultiple10 = num => {
   return(Math.round(nNum))*10;
  };
 ```
+#### Keep Hydrated!
+```javascript
+function litres(time) {
+let litres=time*0.5;
+ return (Math.floor(litres));
+}
+```
