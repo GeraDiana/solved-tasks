@@ -236,6 +236,13 @@ return (Math.floor(i));
 ```javascript
 function century(year) {
   let cent=year/100;
-  return (Math.ceil(cent));;
+  return (Math.ceil(cent));
+}
+```
+#### Keep up the hoop
+```javascript
+function hoopCount (n) {
+  i = n >=10 ?  "Great, now move on to tricks" :"Keep at it until you get it" ;
+   return ( i );
 }
 ```
