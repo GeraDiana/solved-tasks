@@ -232,3 +232,10 @@ function oddCount(n){
 return (Math.floor(i));
 }
 ```
+#### Century From Year
+```javascript
+function century(year) {
+  let cent=year/100;
+  return (Math.ceil(cent));;
+}
+```
