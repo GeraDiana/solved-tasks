@@ -208,7 +208,7 @@ function squareArea(A){
 #### How many times should I go?
 ```javascript
 function howManyTimes(annualPrice, individualPrice) {
-return (Math.ceil(annualPrice / individualPrice));
+ return (Math.ceil(annualPrice / individualPrice));
 }
 ```
 #### Return the closest number multiple of 10
@@ -221,7 +221,14 @@ const closestMultiple10 = num => {
 #### Keep Hydrated!
 ```javascript
 function litres(time) {
-let litres=time*0.5;
+ let litres=time*0.5;
  return (Math.floor(litres));
+}
+```
+#### Count Odd Numbers below n
+```javascript
+function oddCount(n){
+ let i=n/2;
+return (Math.floor(i));
 }
 ```
