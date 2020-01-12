@@ -229,7 +229,7 @@ function litres(time) {
 ```javascript
 function oddCount(n){
  let i=n/2;
-return (Math.floor(i));
+ return (Math.floor(i));
 }
 ```
 #### Century From Year
@@ -245,4 +245,10 @@ function hoopCount (n) {
   i = n >=10 ?  "Great, now move on to tricks" :"Keep at it until you get it" ;
    return ( i );
 }
+```
+#### Chuck Norris VII - True or False? (Beginner)
+```javascript
+function ifChuckSaysSo() {
+  return 100===99;
+};
 ```
