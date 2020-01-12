@@ -252,3 +252,10 @@ function ifChuckSaysSo() {
   return 100===99;
 };
 ```
+#### Simple Comparison?
+```javascript
+function add(a, b){
+return a===''+ b||''+a===b||a===b ;
+
+}
+```
