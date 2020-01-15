@@ -255,7 +255,14 @@ function ifChuckSaysSo() {
 #### Simple Comparison?
 ```javascript
 function add(a, b){
-return a===''+ b||''+a===b||a===b ;
+ return a===''+ b||''+a===b||a===b ;
 
+}
+```
+
+#### Is he gonna survive?
+```javascript
+function hero(bullets, dragons){
+ return bullets/2 >= dragons;
 }
 ```
