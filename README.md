@@ -330,3 +330,10 @@ function Sleigh() {}
   return (name === "Santa Claus" && password === "Ho Ho Ho!")
 };
 ```
+####Is n divisible by x and y?
+```javascript
+function isDivisible(n, x, y) {
+return (n % x)===0 && (n % y)===0;
+
+}
+```
