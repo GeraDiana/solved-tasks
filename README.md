@@ -313,3 +313,13 @@ function apple(x){
 return x**2>1000? 'It\'s hotter than the sun!!': 'Help yourself to a honeycomb Yorkie for the glovebox.'
 }
 ```
+#### Simple multiplication
+```javascript
+function simpleMultiplication(number) {
+  if(number % 2){
+    return number*9;
+  } else {
+    return number*8;
+  }  
+}
+```
