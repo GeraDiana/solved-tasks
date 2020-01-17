@@ -323,17 +323,25 @@ function simpleMultiplication(number) {
   }  
 }
 ```
-####Sleigh Authentication
+#### Sleigh Authentication
 ```javascript
 function Sleigh() {}
   Sleigh.prototype.authenticate = function(name, password) {
   return (name === "Santa Claus" && password === "Ho Ho Ho!")
 };
 ```
-####Is n divisible by x and y?
+#### Is n divisible by x and y?
 ```javascript
 function isDivisible(n, x, y) {
 return (n % x)===0 && (n % y)===0;
 
+}
+```
+#### Is this a triangle?
+```javascript
+function isTriangle(a,b,c)
+{
+return (a+b)>c && (b+c)>a && (a+c)>b;
+    
 }
 ```
