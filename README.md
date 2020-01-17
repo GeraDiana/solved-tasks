@@ -370,3 +370,9 @@ function setAlarm(employed, vacation){
    return employed && (!vacation);
 }
 ```
+#### Can we divide it?
+```javascript
+function isDivideBy(number, a, b) {
+ return  (number%a)===0 && (number%b)===0;
+}
+```
