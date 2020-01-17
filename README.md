@@ -364,3 +364,9 @@ function rps (p1, p2) {
  return  'Draw!'}
 }
 ```
+#### L1: Set Alarm
+```javascript
+function setAlarm(employed, vacation){
+   return employed && (!vacation);
+}
+```
