@@ -421,3 +421,14 @@ function describeAge(age) {
   return "You're a(n) " + (age < 13 ? "kid" : age < 18 ? "teenager" : age < 65 ? "adult" : "elderly")
 }
 ```
+#### 101 Dalmatians - squash the bugs, not the dogs!
+```javascript
+function howManyDalmatians(numer){
+  
+  var dogs =["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
+  
+  var respond = numer <= 10 ? dogs[0] : (numer <= 50) ? dogs[1] : (numer < 101) ? dogs[2] : dogs[3];
+  
+return respond;
+}
+```
