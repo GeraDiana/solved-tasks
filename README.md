@@ -391,7 +391,27 @@ function finalGrade (exam, projects) {
  return 0;
 }
 ```
-####
+#### Calculate Two People's Individual Ages
 ```javascript
+function getAges(sum,difference){
 
+let age2=(difference-sum)/-2;
+let age1=sum-age2;
+
+if (age2 == -0)
+  age2 = 0;
+
+if (sum < 0) {
+  return null;
+}
+
+if (difference < 0) {
+  return null;
+}
+if (age1 < 0 || age2 < 0) {
+  return null;
+}
+
+return [age1,age2] ;
+};
 ```
