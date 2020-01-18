@@ -415,3 +415,9 @@ if (age1 < 0 || age2 < 0) {
 return [age1,age2] ;
 };
 ```
+#### Be Concise I - The Ternary Operator
+```javascript
+function describeAge(age) {
+  return "You're a(n) " + (age < 13 ? "kid" : age < 18 ? "teenager" : age < 65 ? "adult" : "elderly")
+}
+```
