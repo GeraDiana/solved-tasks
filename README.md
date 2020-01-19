@@ -435,7 +435,13 @@ return respond;
 #### Do I get a bonus?
 ```javascript
 function bonusTime(salary, bonus) {
-return  "£"+salary*(bonus? 10:1);
+  return  "£"+salary*(bonus? 10:1);
 
+}
+```
+#### Training JS #7: if..else and ternary operator
+```javascript
+function saleHotdogs(n){
+  return n<5 ? n *100:n>=5 && n<10?n*95:n*90 ;
 }
 ```
