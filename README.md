@@ -445,3 +445,37 @@ function saleHotdogs(n){
   return n<5 ? n *100:n>=5 && n<10?n*95:n*90 ;
 }
 ```
+#### Get Planet Name By ID
+```javascript
+function getPlanetName(id){
+  var name;
+  switch(id){
+    case 1:
+      name = 'Mercury'
+      break;
+    case 2:
+      name = 'Venus'
+      break;
+    case 3:
+      name = 'Earth'
+      break;
+    case 4:
+      name = 'Mars'
+      break;
+    case 5:
+      name = 'Jupiter'
+      break;
+    case 6:
+      name = 'Saturn'
+      break;
+    case 7:
+      name = 'Uranus'
+      break;
+    case 8:
+      name = 'Neptune'
+      break;
+  }
+  
+  return name;
+}
+```
