@@ -534,3 +534,27 @@ function switchItUp(number){
 
 }
 ```
+####simple calculator
+```javascript
+function calculator(a,b,sign){
+  if (typeof (b)!='number')
+  return "unknown value";
+  switch (sign) {
+  case '+':
+    return a+b;
+  case '-':
+    return a-b;
+  case '*':
+    return a*b;
+  case '/':
+    return a/b;
+   case '$':
+    return "unknown value";
+ case '-':
+    return a-b;
+ default:
+    return "unknown value";
+  }
+
+}
+```
