@@ -558,7 +558,7 @@ function calculator(a,b,sign){
 
 }
 ```
-#### Power of two
+####  Power of two
 ```javascript
 function isPowerOfTwo(n){
 let x=n;
