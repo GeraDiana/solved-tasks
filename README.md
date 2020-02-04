@@ -568,3 +568,17 @@ let x=n;
   return x===1;
 }
 ```
+#### Difference Of Squares
+```javascript
+function differenceOfSquares(n){
+  let i=1;
+  let b=0;
+  let s=0;
+     while (i<=n){
+     b+=i;
+     s+=i*i;
+     i++;
+  }
+  return (b*b)-s;
+}
+```
