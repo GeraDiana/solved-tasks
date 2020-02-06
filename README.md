@@ -644,3 +644,13 @@ return '0.00';
  return  b.toFixed(2) + '';
 }
 ```
+#### Grasshopper - Summation
+```javascript
+var summation = function (num){
+let sum=0;
+for(let i=1 ; i <= num; i++){
+  sum=sum+i;
+   }
+  return sum;
+}
+```
