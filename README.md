@@ -592,3 +592,16 @@ while((x%10)===0 && x!==0){
   return x;
 }
 ```
+#### Factorial
+```javascript
+function factorial(n){
+  if (n===0)
+    return 1;
+  let i=1
+  let y=1;
+while (i<=n){
+  y=y*i++;
+  }
+  return y;
+}
+```
