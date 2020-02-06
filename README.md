@@ -616,3 +616,19 @@ k++;
   return k-1;
 }
 ```
+#### The wheat/rice and chessboard problem
+```javascript
+function squaresNeeded(grains){
+if (grains===0)
+   return 0;
+  let k=1;
+  let g=1;
+  let s=1;
+while(s<grains){
+k++;
+g=g*2;
+s=s+g;
+}
+  return k ;
+  }
+```
