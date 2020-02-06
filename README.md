@@ -632,3 +632,15 @@ s=s+g;
   return k ;
   }
 ```
+#### Sum of the first nth term of Series
+```javascript
+function SeriesSum(n){
+if(n===0)
+return '0.00'; 
+ let b=1;
+ for (let i = 2 ; i <= n ; i++){
+   b = b + 1 / (4 + 3 * (i-2));
+ }
+ return  b.toFixed(2) + '';
+}
+```
