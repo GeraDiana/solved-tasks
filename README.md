@@ -654,3 +654,13 @@ for(let i=1 ; i <= num; i++){
   return sum;
 }
 ```
+#### Beginner Series #3 Sum of Numbers
+```javascript
+function getSum( a,b ){
+let sum=0;
+for(let i=Math.min(a,b) ; i <= Math.max(a,b); i++){
+  sum=sum+i;
+   }
+  return sum;
+}
+```
