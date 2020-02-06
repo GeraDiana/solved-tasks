@@ -582,3 +582,13 @@ function differenceOfSquares(n){
   return (b*b)-s;
 }
 ```
+#### No zeros for heros
+```javascript
+function noBoringZeros(n) {
+let x=n;
+while((x%10)===0 && x!==0){
+ x=x/10;
+  }
+  return x;
+}
+```
