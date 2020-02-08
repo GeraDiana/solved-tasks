@@ -667,7 +667,7 @@ for(let i=Math.min(a,b) ; i <= Math.max(a,b); i++){
 #### Sum of Multiples
 ```javascript
 function sumMul(n,m){
-if(m<=0)
+if (m<=0)
 return "INVALID";
 let sum=0;
 for(let i=n ; i < m; i=i+n){
