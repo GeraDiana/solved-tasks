@@ -676,3 +676,16 @@ for(let i=n ; i < m; i=i+n){
   return sum;
 }
 ```
+#### Draw stairs
+```javascript
+function drawStairs(n) {
+let s='';
+ for (var i = 0; i < n; i++) {
+    for (var j = 0; j < i; j++) {
+      s = s+' ';
+    }
+    s=s+"I"+(i==n-1? '': "\n");
+  }
+  return s;
+}
+```
