@@ -689,3 +689,15 @@ let s='';
   return s;
 }
 ```
+
+#### Power
+```javascript
+function numberToPower(number, power){
+let s=1;
+for (let i=1; i<=power;i++) {
+  s=number*s;
+}
+ return s;
+ 
+}
+```
