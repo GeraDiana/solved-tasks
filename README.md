@@ -701,3 +701,11 @@ for (let i=1; i<=power;i++) {
  
 }
 ```
+#### Is Really NaN
+```javascript
+const isReallyNaN = (val) => {
+  
+ return (typeof val) === 'number' && (''+val) === 'NaN';
+
+}
+```
