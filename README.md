@@ -721,3 +721,9 @@ var FilterString = function(value) {
    return +res;
 }
 ```
+#### Is integer safe to use?
+```javascript
+function SafeInteger(n) {
+return Number.isSafeInteger(n);
+}
+```
