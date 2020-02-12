@@ -734,3 +734,9 @@ function makeNegative(num) {
   return r;
   }
 ```
+#### Opposite number
+```javascript
+function opposite(number) {
+  return (-number);
+}
+```
