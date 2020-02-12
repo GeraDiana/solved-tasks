@@ -727,3 +727,10 @@ function SafeInteger(n) {
 return Number.isSafeInteger(n);
 }
 ```
+#### Return Negative
+```javascript
+function makeNegative(num) {
+  let r= num<0 ? +num :-num ;
+  return r;
+  }
+```
