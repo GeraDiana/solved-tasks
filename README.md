@@ -765,3 +765,10 @@ function twoOldestAges(ages){
   return ages.sort((a,b)=>a-b).slice(-2);
 }
 ```
+#### Sum of two lowest positive integers
+```javascript
+function sumTwoSmallestNumbers(n) {  
+  n.sort((a,b)=>a-b)
+  return n[0]+n[1];
+}
+```
