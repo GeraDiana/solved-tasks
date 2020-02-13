@@ -751,3 +751,9 @@ function squareOrSquareRoot(array) {
   return arr;
 }
 ```
+#### Regex count lowercase letters
+```javascript
+function lowercaseCount(str){
+   return str.match(/[a-z]/g)? str.match(/[a-z]/g).length:0
+}
+```
