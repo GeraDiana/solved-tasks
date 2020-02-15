@@ -777,3 +777,12 @@ function sumTwoSmallestNumbers(n) {
 const min = list=> list.sort(( a,b)=>a-b)[0];
 const max= list => list.sort (( a,b)=>b-a) [0];
 ```
+### Sum of differences in array
+```javascript
+function sumOfDifferences(arr) {
+if(arr.length===0) return 0;
+arr.sort((a,b )=>b-a);
+return arr[0]-arr[arr.length-1];
+}
+```
+####
