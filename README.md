@@ -789,3 +789,7 @@ return arr[0]-arr[arr.length-1];
 ```javascript
 const smash=words=> words.join(' ');
 ```
+#### My head is at the wrong end!
+```javascript
+const fixTheMeerkat= arr =>arr.reverse();
+```
