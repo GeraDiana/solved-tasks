@@ -793,3 +793,7 @@ const smash=words=> words.join(' ');
 ```javascript
 const fixTheMeerkat= arr =>arr.reverse();
 ```
+#### Sum Arrays
+```javascript
+const sum = array => array.reduce((sum,el) =>sum+ el,0);
+```
