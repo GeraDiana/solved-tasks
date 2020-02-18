@@ -797,3 +797,13 @@ const fixTheMeerkat= arr =>arr.reverse();
 ```javascript
 const sum = array => array.reduce((sum,el) =>sum+ el,0);
 ```
+#### Invert values
+```javascript
+function invert(array) {
+let ar=[];
+for(let i=0;i<array.length;i++){
+ar[i]=-array[i];
+}
+ return ar ;
+}
+```
