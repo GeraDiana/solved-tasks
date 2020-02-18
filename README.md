@@ -807,3 +807,9 @@ ar[i]=-array[i];
  return ar ;
 }
 ```
+#### BASIC: Making Six Toast.
+```javascript
+function sixToast(num) {
+   return  Math.abs(num-6);
+}
+```
