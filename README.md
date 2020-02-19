@@ -833,3 +833,17 @@ function squareDigits(num){
   return parseInt(result);
   }
 ```
+#### Squares sequence
+```javascript
+function squares(x, n) {
+if (n <= 0) return []
+  const numbers = Array.from({ length: n }, (_, index) => (index === 0 ? x : 0))
+  let previousNumber = x
+  const squareSequence = numbers.map((num, index, arr) => {
+    const result = index === 0 ? num : previousNumber
+    previousNumber = previousNumber*previousNumber
+    return result
+  })
+  return squareSequence
+}
+```
