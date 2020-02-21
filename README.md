@@ -848,3 +848,11 @@ if (n <= 0) return []
   return squareSequence
 }
 ```
+#### You're a square!
+```javascript
+var isSquare = function(n){
+      let out = Math.sqrt(n);
+    return n >= 0 && (parseInt(out) === out) ? true : false;
+
+}
+```
