@@ -844,6 +844,7 @@ if (n <= 0) return []
     previousNumber = previousNumber*previousNumber
     return result
   })
+
   return squareSequence
 }
 ```
