@@ -870,3 +870,17 @@ const findNextSquare = sq => {
   return num;
 }
 ```
+#### Find the next perfect square!
+```javascript
+const isSquare = n => Number.isInteger(Math.sqrt(n))
+
+const findNextSquare = sq => {
+  if (!isSquare(sq)) return -1
+
+  let num = sq + 1
+  while (!isSquare(num)) num++
+
+
+  return num;
+}
+```
