@@ -884,3 +884,9 @@ const findNextSquare = sq => {
   return num;
 }
 ```
+#### Beginner Series #4 Cockroach
+```javascript
+function cockroachSpeed(s) {
+ return Math.floor(s * 100000 / 3600);
+}
+```
