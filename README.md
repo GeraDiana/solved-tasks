@@ -894,3 +894,8 @@ function cockroachSpeed(s) {
 ```javascript
 const mango = (quantity, price) => (quantity - Math.floor(quantity / 3)) * price
 ```
+#### Holiday VIII - Duty Free
+```javascript
+const dutyFree = (normPrice, discount, hol) =>
+  Math.floor(hol / (normPrice * discount / 100))
+```
