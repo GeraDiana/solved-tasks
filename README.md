@@ -890,3 +890,7 @@ function cockroachSpeed(s) {
  return Math.floor(s * 100000 / 3600);
 }
 ```
+#### Price of Mangoes
+```javascript
+const mango = (quantity, price) => (quantity - Math.floor(quantity / 3)) * price
+```
