@@ -899,3 +899,11 @@ const mango = (quantity, price) => (quantity - Math.floor(quantity / 3)) * price
 const dutyFree = (normPrice, discount, hol) =>
   Math.floor(hol / (normPrice * discount / 100))
 ```
+####All Star Code Challenge #22
+```javascript
+function toTime(seconds) {
+    let hour = Math.trunc(seconds / 3600);
+    let minutes = Math.trunc((seconds  - hour * 3600) / 60);
+    return `${hour} hour(s) and ${minutes} minute(s)`
+}
+```
