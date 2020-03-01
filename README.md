@@ -921,3 +921,7 @@ function race(v1, v2, g) {
   return [h, m, s]
 }
 ```
+#### Formatting decimal places #1
+```javascript
+const twoDecimalPlaces = number => Math.trunc(number * 100) / 100
+```
