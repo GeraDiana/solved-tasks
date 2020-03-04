@@ -948,4 +948,15 @@ return sum;
 
 }
 ```
-
+#### Lario and Muigi Pipe Problem
+```javascript
+function pipeFix(numbers){
+  let arr=[];
+  let a= Math.max(...numbers);
+  let b= Math.min(...numbers);
+  for (let i=b; i<=a; i++){
+   arr.push (i);
+  }
+  return arr;
+ }
+```
