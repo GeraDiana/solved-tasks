@@ -960,3 +960,7 @@ function pipeFix(numbers){
   return arr;
  }
 ```
+#### Binary Addition
+```javascript
+const addBinary=(a,b) => (a+b).toString (2)
+```
