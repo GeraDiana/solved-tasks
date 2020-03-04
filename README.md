@@ -925,3 +925,16 @@ function race(v1, v2, g) {
 ```javascript
 const twoDecimalPlaces = number => Math.trunc(number * 100) / 100
 ```
+#### Expressions Matter
+```javascript
+function expressionMatter(a, b, c) {
+  let r = a+b+c;
+  let s = a*b+c;
+  let t = a+b*c;
+  let u = a*b*c;
+  let v = (a+b)*c;
+  let w = a*(b+c);
+  return Math.max(r,s,t,u,v,w,)
+}
+```
+
