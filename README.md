@@ -964,3 +964,7 @@ function pipeFix(numbers){
 ```javascript
 const addBinary=(a,b) => (a+b).toString (2)
 ```
+#### Convert to Binary
+```javascript
+const toBinary =n=> Number (n.toString(2))
+```
