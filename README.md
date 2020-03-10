@@ -968,3 +968,9 @@ const addBinary=(a,b) => (a+b).toString (2)
 ```javascript
 const toBinary =n=> Number (n.toString(2))
 ```
+#### Calculate Price Excluding VAT
+```javascript
+//return price without vat
+const excludingVatPrice = price =>
+  price === null ? -1 : Number((price / 1.15).toFixed(2))
+```
