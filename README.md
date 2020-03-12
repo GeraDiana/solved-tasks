@@ -974,3 +974,7 @@ const toBinary =n=> Number (n.toString(2))
 const excludingVatPrice = price =>
   price === null ? -1 : Number((price / 1.15).toFixed(2))
 ```
+#### Parse nice int from char problem
+```javascript
+const getAge = inputString => Number(inputString.match(/\d/)[0])
+```
