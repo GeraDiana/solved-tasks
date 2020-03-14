@@ -978,3 +978,7 @@ const excludingVatPrice = price =>
 ```javascript
 const getAge = inputString => Number(inputString.match(/\d/)[0])
 ```
+#### Hex to Decimal
+```javascript
+const hexToDec = hexString => parseInt(hexString, 16)
+```
