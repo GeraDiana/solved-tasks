@@ -972,7 +972,7 @@ const toBinary =n=> Number (n.toString(2))
 ```javascript
 //return price without vat
 const excludingVatPrice = price =>
-  price === null ? -1 : Number((price / 1.15).toFixed(2))
+  price === null ? -1 : Number(( price / 1.15).toFixed(2))
 ```
 ####  Parse nice int from char problem
 ```javascript
