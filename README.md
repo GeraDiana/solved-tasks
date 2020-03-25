@@ -982,3 +982,7 @@ const getAge = inputString => Number (inputString.match(/\d/)[0])
 ```javascript
 const hexToDec = hexString => parseInt (hexString, 16)
 ```
+####Bin to Decimal
+```javascript
+const binToDec = bin => parseInt(bin, 2)
+```
