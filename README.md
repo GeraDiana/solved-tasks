@@ -986,3 +986,22 @@ const hexToDec = hexString => parseInt (hexString, 16)
 ```javascript
 const binToDec = bin => parseInt(bin, 2)
 ```
+#### Most valuable character
+```javascript
+function solve(st) {
+let max = 0;
+ let obj = {};
+ for(let i = 0; i < st.length; i++){
+   obj[st[i]] = st.lastIndexOf(st[i]) - st.indexOf(st[i])
+   if(obj[st[i]] > max) 
+    max = obj[st[i]];
+ }
+ let min = 'Й';
+ for(let key in obj){
+   if( obj[key] === max && key < min) {
+   min = key;
+   }
+ }
+ return min
+}
+```
