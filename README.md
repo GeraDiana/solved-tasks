@@ -1005,3 +1005,7 @@ let max = 0;
  return min
 }
 ```
+#### Parse float
+```javascript
+const parseF = s => (Number.isNaN(parseFloat(s)) ? null : parseFloat(s))
+```
