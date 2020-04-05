@@ -1023,3 +1023,7 @@ function nthFibo(n) {
 ```javascript
 const monkeyCount = n => [...new Array(n)].map((_, i) => i + 1)
 ```
+#### Filling an array (part 1)
+```javascript
+const arr = N => (N ? Array.from(Array(N), (_, index) => index) : [])
+```
