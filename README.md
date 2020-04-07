@@ -1027,3 +1027,17 @@ const monkeyCount = n => [...new Array(n)].map((_, i) => i + 1)
 ```javascript
 const arr = N => (N ? Array.from(Array(N), (_, index) => index) : [])
 ```
+#### Training JS #4: Basic data types--Array
+```javascript
+const getLength = arr => arr.length
+const getFirst = arr => arr[0]
+const getLast = arr => arr[arr.length - 1]
+const pushElement = arr => {
+  arr.push(1)
+  return arr
+}
+const popElement = arr => {
+  arr.pop()
+  return arr
+}
+```
