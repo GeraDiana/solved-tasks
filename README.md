@@ -1019,7 +1019,7 @@ function nthFibo(n) {
   return arr[n-1]
 }
 ```
-#### Count the Monkeys!
+#### Count the Monkeys!!
 ```javascript
 const monkeyCount = n => [...new Array(n)].map((_, i) => i + 1)
 ```
