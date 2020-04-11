@@ -1041,3 +1041,11 @@ const popElement = arr => {
   return arr
 }
 ```
+#### All Star Code Challenge #22
+```javascript
+function toTime(seconds) {
+    let hour = Math.trunc(seconds / 3600);
+    let minutes = Math.trunc((seconds  - hour * 3600) / 60);
+    return `${hour} hour(s) and ${minutes} minute(s)`
+}
+```
