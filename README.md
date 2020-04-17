@@ -1050,7 +1050,7 @@ function toTime(seconds) {
 }
 ```
 
-#### A Rule of Divisibility by 7.
+#### A Rule of Divisibility by7.
 ```javascript
 function seven(m) {
 var i = 0;
