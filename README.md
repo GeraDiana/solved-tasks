@@ -1063,3 +1063,13 @@ return [m, i];
 ```
 #### "Very Even" Numbers .
 ```const isVeryEvenNumber = (n) => (((n - 1) % 9) + 1) % 2 === 0```
+
+#### Absent vowel.
+```javascript
+function absentVowel(x){
+    const char = ['a', 'e', 'i', 'o', 'u'];
+    let num = 0;
+    char.filter((el, i) => x.includes(el) ? num *=1 : num = i);
+    return num;
+}
+```
