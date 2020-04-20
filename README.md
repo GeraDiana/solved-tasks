@@ -1073,3 +1073,22 @@ function absentVowel(x){
     return num;
 }
 ```
+
+#### 
+Alphabet symmetry
+```javascript
+function solve(arr){
+    let alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q',
+        'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+    let  num = []; let count;
+    for (let i = 0; i < arr.length; i++){
+        count = 0;
+        for (let j = 0; j < arr[i].length; j++){
+            arr[i] = arr[i].toLowerCase();
+            if (arr[i][j] === alphabet[j]) count++;
+        }
+        num.push(count);
+    }
+    return num;
+}
+```
