@@ -1092,7 +1092,7 @@ function solve(arr){
 }
 ```
 
-#### All Star Code Challenge #14
+#### All Star Code Challenge # 14
 ```javascript
 const median = (array) => {
   const sortedDonations = [...array].sort((a, b) => a - b)
