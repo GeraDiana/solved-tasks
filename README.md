@@ -1119,3 +1119,14 @@ function comp(array1, array2) {
   return JSON.stringify(a1Squared) === JSON.stringify(a2)
 }
 ```
+#### Create Phone Number
+```javascript
+function createPhoneNumber(numbers) {
+  const numbersString = numbers.join('')
+  const firstPart = numbersString.slice(0, 3)
+  const secondPart = numbersString.slice(3, 6)
+  const thirdPart = numbersString.slice(6, 10)
+
+  return `(${firstPart}) ${secondPart}-${thirdPart}`
+}
+```
