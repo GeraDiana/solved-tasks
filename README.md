@@ -1130,3 +1130,12 @@ function createPhoneNumber(numbers) {
   return `(${firstPart}) ${secondPart}-${thirdPart}`
 }
 ```
+#### Bit Counting
+```javascript
+function countBits(n) {
+  return n
+    .toString(2)
+    .split('')
+    .reduce((a, b) => (b === '1' ? ++a : a), 0)
+}
+```
