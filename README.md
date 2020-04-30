@@ -1153,3 +1153,7 @@ function duplicateCount(text) {
   return Array.from(new Set(result)).length
 }
 ```
+#### Array.diff
+```javascript
+const arrayDiff = (a, b) => a.filter(x => !b.includes(x))
+```
