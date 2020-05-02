@@ -1140,7 +1140,7 @@ function countBits(n) {
 }
 ```
 
-#### Counting Duplicates .
+#### Counting Duplicates.
 ```javascript
 function duplicateCount(text) {
   const arr = text.toLowerCase().split('')
