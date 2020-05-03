@@ -1157,3 +1157,18 @@ function duplicateCount(text) {
 ```javascript
 const arrayDiff = (a, b) => a.filter(x => !b.includes(x))
 ```
+#### Basic subclasses - Adam and Eve
+```javascript
+class Human {}
+class Man extends Human {}
+class Woman extends Human {}
+
+class God {
+  static create() {
+    const adan = new Man()
+    const eva = new Woman()
+
+    return [adan, eva]
+  }
+}
+```
