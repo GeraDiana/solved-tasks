@@ -1172,3 +1172,18 @@ class God {
   }
 }
 ```
+
+#### Always perfect
+```javascript
+const checkRoot = string => {
+  const numbers = string.split(',')
+
+  if (numbers.length !== 4 || numbers.some(isNaN)) return 'incorrect input'
+  if (numbers.some((number, index) => index > 0 && number - numbers[index - 1] !== 1)) return 'not consecutive'
+
+  const totalProductPlusOne = numbers.reduce((total, number) => total * number, 1) + 1
+  const squareRoot = Math.sqrt(totalProductPlusOne)
+
+  return `${totalProductPlusOne}, ${squareRoot}`
+}
+```
