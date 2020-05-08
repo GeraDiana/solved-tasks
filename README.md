@@ -1173,7 +1173,7 @@ class God {
 }
 ```
 
-#### Always perfect
+#### Always perfect.
 ```javascript
 const checkRoot = string => {
   const numbers = string.split(',')
