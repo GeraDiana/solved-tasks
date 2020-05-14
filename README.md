@@ -1130,7 +1130,7 @@ function createPhoneNumber(numbers) {
   return `(${firstPart}) ${secondPart}-${thirdPart}`
 }
 ```
-#### Bit Counting.
+#### Bit Counting .
 ```javascript
 function countBits(n) {
   return n
