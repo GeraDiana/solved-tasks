@@ -1064,7 +1064,7 @@ return [m, i];
 #### "Very Even" Numbers.
 ```const isVeryEvenNumber = (n) => (((n - 1) % 9) + 1) % 2 === 0```
 
-#### Absent vowel
+#### Absent vowel..
 ```javascript
 function absentVowel(x){
     const char = ['a', 'e', 'i', 'o', 'u'];
